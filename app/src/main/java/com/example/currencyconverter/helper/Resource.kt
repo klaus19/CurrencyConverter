@@ -1,6 +1,6 @@
 package com.example.currencyconverter.helper
 
-import com.google.android.gms.common.api.Status
+
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?){
 
